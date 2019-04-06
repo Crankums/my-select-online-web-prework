@@ -4,5 +4,6 @@ collection.each do |i|
   if yield == collection[i]
     new_arr << collection[i]
   end
+  end
   new_arr
 end
