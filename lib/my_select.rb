@@ -2,8 +2,8 @@ def my_select(collection)
   counter = 0
   new_arr = []
   collection.each do |i|
-    if collection(i) == yield
-      new_arr << collection(i)
+    if i == yield
+      new_arr << i
       new_arr
     else
       new_arr
