@@ -6,5 +6,5 @@ def my_select(collection)
     else
       counter += 1
     end
-
+  end
 end
