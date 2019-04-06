@@ -1,7 +1,7 @@
 def my_select(collection)
   counter = 0
   collection.each do |i|
-    if i == yield
+    if collection(i) == yield
       i
     else
       counter += 1
