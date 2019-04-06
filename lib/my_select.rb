@@ -2,7 +2,7 @@ def my_select(collection)
   counter = 0
   new_arr = []
   collection.each do |i|
-    if collection(i) == yield 
+    if collection(i) == yield
       new_arr << collection(i)
       new_arr
     else
