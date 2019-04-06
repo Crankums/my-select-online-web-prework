@@ -1,9 +1,10 @@
 def my_select(collection)
-  elem = 0
-  while elem<collection.length
-    if collection[elem] == yield
-      return collection[elem]
+  counter = 0
+  collection.each do |i|
+    if i == yield
+      i 
+    else
+      counter += 1
     end
-      elem += 1
-  end
+    
 end
