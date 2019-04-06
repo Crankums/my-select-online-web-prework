@@ -2,7 +2,7 @@ def my_select(collection)
 new_arr = []
 counter = 0
 while counter<collection.length
-  if collection[counter] == yield
+  if yield(collection[counter]) == true
     new_arr << collection[counter]
     counter += 1
   else
