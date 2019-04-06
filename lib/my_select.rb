@@ -8,5 +8,6 @@ while counter<collection.length
   else
     counter +=1
   end
+end
   new_arr
 end
