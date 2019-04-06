@@ -1,9 +1,6 @@
 def my_select(collection)
 new_arr = []
-collection.each do |i|
-  if yield == collection[i]
-    new_arr << collection[i]
-  end
-  end
-  new_arr
+counter = 0
+while counter<collection.length
+  
 end
