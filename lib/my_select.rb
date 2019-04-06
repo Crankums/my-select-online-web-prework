@@ -4,6 +4,7 @@ def my_select(collection)
   while elem<collection.length
     if yield collection[elem] == true
       return collection elem
+    end
       elem += 1
   end
 end
